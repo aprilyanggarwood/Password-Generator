@@ -1,15 +1,26 @@
 # HW3 JavaScript: Password Generator
 
-## Goal:
+## Goal
 
-This homework practice is to create an application which work for user to generate a randomed password by user-selected criterias when he/she click the botton of Generate Password.
+This homework practice is to create an application which work for user to generate a random password by user-selected criteria when he/she click the button of Generate Password. This application will help user to create a strong password that provides greater security.
 
-## Process of creating this application
+## Codes are used in the js file
 
-1, Esteblished variables for setting up the rules which inclues the types of charactors and the length of password.
+I used the following codes in the js file in order to enable this application to perform the requested functions:
 
-2, Used one prompt and four confirm questions to ask user for the length of the generated password and if includes certain character types in his/her password. If user didn't follow the rules to answer the questions, the alerts will tell user which rules he/she must to be followed and the qustions will run again by executing multiple if...else statements.
+- variables, strings
+- loops: for statements
+- if - else statements
+- functions: alert(), confirm(), prompt()
+- String Methods: CharAt()
+- Event and Math methods: addEventListener() ， Math.floor(Math.random()\*String.length)
+- Events: onclick
+- comparison and logical operators: > , < , || , ! , && .
 
-3, When user followed the rules to answer the questions, then the randomed password that meets the user's certain criteria will be randomly generated for user and rendered the password in the text area of the card by execting for statement in the loop and the event method.
+## How this application work for user
 
-This application will help user to create a strong password that provides greater security.
+1, Establised variables for setting up the rules which includes the types of characters and the length of password.
+
+2, Used one prompt and four confirm questions to ask user what he/she wants for the length of the password and if includes certain character types in his/her password. If user didn't follow the rules of the generated password to answer the questions, the alerts will tell user which rules he/she must to be followed, and the questions will run again by executing multiple if...else statements.
+
+3, When user followed the rules to answer the questions, then the random password that meets the user's certain criteria will be generated for user and rendered in the text area of the card by executing the for loop statement and the event and math method.
