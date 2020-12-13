@@ -1,4 +1,4 @@
-# JavaScript: Password Generator [HW3](https://aprilyanggarwood.github.io/UW-Coding-Boot-Camp---HW3)
+# JavaScript: [Password Generator](http://127.0.0.1:5500/index.html)
 
 ## Goal
 
